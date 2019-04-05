@@ -23,5 +23,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onDestroy();
         // add info log
         Log.i("Say Hello", "HELLO");
+        // add log
+        Log.d("Say Hi", "Hi");
     }
 }
